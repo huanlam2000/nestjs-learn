@@ -1,0 +1,24 @@
+
+
+### SIGN IN
+POST http://localhost:3333/auth/signin
+Content-Type: application/json
+
+{
+  "email": "huantyn2@gmail.com",
+  "password": "123"
+}
+
+### SIGN UP
+POST http://localhost:3333/auth/signup
+Content-Type: application/json
+
+{
+  "email": "huantyn2@gmail.com",
+  "password": "123"
+}
+
+
+### get user
+GET http://localhost:3333/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsImVtYWlsIjoiaHVhbnR5bjJAZ21haWwuY29tIiwiaWF0IjoxNzEyNDc0Mzg4LCJleHAiOjE3MTI0NzUyODh9.2x3K-7igwMzE2sYWC9K0lY-MkaqljmXYmn_oV9-QxGE
